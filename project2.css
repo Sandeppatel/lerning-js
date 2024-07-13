@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html  ,  body{
+    height: 100%;
+    width: 100%;
+}
+ body{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+#grey{
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+}
+#yellow{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
+#blue{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+#red{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+#green{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}

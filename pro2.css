@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.container h1{
+    margin-bottom: 10px;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+button{
+    font-size: 20px;
+    padding: 4px 20px;
+    
+    margin-top: 10px;
+}
+#results{
+    height: 40px;
+    width: 140px; 
+     
+}
+#weight-guide{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

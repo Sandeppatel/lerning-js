@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#clock{
+    text-align: center;
+    height: 40px;
+    width: 150px;
+    padding: 10px 10px;
+    background-color: grey;
+    position: relative;
+    color: white;
+    z-index: 99;
+}
+#clock::after{
+    content:  "";
+    height: 100%;
+    width: 0%;
+    background-color: black;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transition: all ease 0.5s;
+    z-index: -1;
+}
+#clock:hover::after{
+    width: 100%;
+}
